@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.bsdmasterindex.phonegapcontact-test"
+        version     = "1.3.0"
+        versionCode = "10" >
+        <!-- versionCode is optional and Android only -->
+        <preference name="phonegap-version" value="cli-5.2.0" />
+
+        <name>Phonegap Contact test</name>
+        <description>Simple Contact test</description>
+     
+        <gap:platform name="android" />
+        <gap:platform name="ios" />
+
+        <preference name="permissions" value="none"/>
+        <!-- device required so we can detect if we are using iOS -->
+        <plugin name="cordova-plugin-contacts"       source="npm" spec="1.1.0" />
+        <plugin name="cordova-plugin-device"         source="npm" spec="1.0.1" />
+
+    </widget>
