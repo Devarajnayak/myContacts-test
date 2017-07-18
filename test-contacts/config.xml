@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.bsdmasterindex.phonegapcontact-test"
+        id          = "com.bsdmasterindex.mycontact-test"
         version     = "1.3.0"
         versionCode = "10" >
         <!-- versionCode is optional and Android only -->
         <preference name="phonegap-version" value="cli-5.2.0" />
 
-        <name>Phonegap Contact test</name>
+        <name>My Contact test</name>
         <description>Simple Contact test</description>
      
         <gap:platform name="android" />
